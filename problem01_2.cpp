@@ -1,5 +1,5 @@
 #include <iostream>
-
+//포인터 
 void swap(int* num1, int* num2) {
 	int temp;
 	temp = *num1;
