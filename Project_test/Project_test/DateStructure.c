@@ -1,6 +1,6 @@
 #include <stdio.h>
 //int tree[i] = {'\0\, ... '\0'};
-//추가
+//추가 
 
 void preorder(int i) {
 	if (i > 0 && tree[i] != '\0') {
@@ -28,5 +28,7 @@ void inorder(int i) {
 }
 
 int main() {
-
+	//preorder();
+	//postorder();
+	//inoreder();;
 }
